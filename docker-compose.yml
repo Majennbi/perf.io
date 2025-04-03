@@ -1,0 +1,11 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: ../docker/backend/Dockerfile
+    volumes:
+      - ./backend:/app
+    ports:
+      - "8000:80"
+    environment:
+      APP_ENV: dev

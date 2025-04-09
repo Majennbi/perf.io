@@ -1,3 +1,5 @@
+import "./globals.css";
+
 export const metadata = {
   title: "Perf.io",
   description: "Piloter votre activité de Freelance comme un chef d'entreprise ",

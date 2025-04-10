@@ -1,36 +1,39 @@
 "use client";
 
-export default function IncomeSourceButton({ onSourceSelect, selectedSources }) {
+import { Button } from "@/components/ui/button";
+
+export default function IncomeSourceButton({
+  onSourceSelect,
+  selectedSources,
+}) {
   const sources = ["Malt", "UpWork", "Direct"];
 
   function handleClick(source) {
-    // Appelle la fonction passée par le parent
     onSourceSelect(source);
   }
 
-  return (
-    <div>
-      {/* Groupe de boutons */}
-      <div style={{ display: "flex", gap: "10px", marginBottom: "10px" }}>
-        {sources.map((source) => (
-          <button
-            key={source}
-            onClick={() => handleClick(source)}
-            style={{
-              padding: "8px 16px",
-              backgroundColor: selectedSources.includes(source)
-                ? "#b11414"
-                : "#f2f2f2",
-              color: selectedSources.includes(source) ? "white" : "black",
-              border: "1px solid #b11414",
-              borderRadius: "4px",
-              cursor: "pointer",
-            }}
-          >
-            {source}
-          </button>
-        ))}
-      </div>
-    </div>
-  );
+return (
+  <div className="flex flex-wrap gap-2">
+    {sources.map((source) => {
+      const isSelected = selectedSources.some(
+        (selected) => selected.name === source
+      );
+
+      return (
+        <Button
+          key={source}
+          onClick={() => handleClick(source)}
+          variant={isSelected ? "default" : "outline"}
+          className={`min-w-24 rounded-full transition-all hover:translate-y-[-2px] ${
+            isSelected
+              ? "bg-primary text-white shadow-md shadow-primary/30"
+              : "bg-primary/90 text-white border-primary/20 hover:bg-primary/20"
+          }`}
+        >
+          {source}
+        </Button>
+      );
+    })}
+  </div>
+);
 }

@@ -1,20 +1,20 @@
 {
   "Index": {
-    "meta_title": "SaaS Template - The perfect SaaS template to build and scale your business with ease.",
+    "meta_title": "Perf.io - The perfect Perf.io to build and scale your business with ease.",
     "meta_description": "A free and open-source landing page template for your SaaS business, built with React, TypeScript, Shadcn UI, and Tailwind CSS."
   },
   "Navbar": {
     "sign_in": "Sign In",
     "sign_up": "Sign Up",
     "product": "Product",
-    "docs": "Docs",
+    "calculator": "Simulateur",
     "blog": "Blog",
     "community": "Community",
     "company": "Company"
   },
   "Hero": {
     "follow_twitter": "Follow @Ixartz on Twitter",
-    "title": "The perfect <important>SaaS template</important> to build and scale your business with ease.",
+    "title": "<important>Pilot</important> your freelance activity as a professional with Perf.io.",
     "description": "A free and open-source landing page template for your SaaS business, built with React, TypeScript, Shadcn UI, and Tailwind CSS.",
     "primary_button": "Get Started",
     "secondary_button": "Star on GitHub"
@@ -24,19 +24,19 @@
   },
   "Features": {
     "section_subtitle": "Features",
-    "section_title": "Unlock the Full Potential of the SaaS Template",
-    "section_description": "A free and open-source landing page template for your SaaS business, built with React, TypeScript, Shadcn UI, and Tailwind CSS.",
-    "feature1_title": "Node.js",
-    "feature2_title": "React",
-    "feature3_title": "Tailwind CSS",
-    "feature4_title": "TypeScript",
-    "feature5_title": "Shadcn UI",
-    "feature6_title": "ESLint",
-    "feature_description": "A free and open-source landing page template for your SaaS business, built with React, TypeScript, Shadcn UI, and Tailwind CSS."
+    "section_title": "Everything you need to manage your freelance business",
+    "section_description": "Perf.io provides all the tools you need to efficiently manage your freelance business, track your projects, and maximize your productivity.",
+    "feature1_title": "Client Management",
+    "feature2_title": "Time Tracking",
+    "feature3_title": "Automated Invoicing",
+    "feature4_title": "Project Management",
+    "feature5_title": "Dashboards",
+    "feature6_title": "Financial Reports",
+    "feature_description": "Intuitive and powerful tools to help you focus on what you do best: your freelance work."
   },
   "Pricing": {
     "section_subtitle": "Features",
-    "section_title": "Unlock the Full Potential of the SaaS Template",
+    "section_title": "Unlock the Full Potential of the Perf.io",
     "section_description": "A free and open-source landing page template for your SaaS business, built with React, TypeScript, Shadcn UI, and Tailwind CSS.",
     "button_text": "Get Started"
   },
@@ -94,7 +94,7 @@
     "settings": "Settings"
   },
   "Dashboard": {
-    "meta_title": "SaaS Template Dashboard",
+    "meta_title": "Perf.io Dashboard",
     "meta_description": "A free and open-source landing page template for your SaaS business, built with Next.js, TypeScript, Shadcn UI, and Tailwind CSS."
   },
   "DashboardIndex": {

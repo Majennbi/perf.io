@@ -2,7 +2,7 @@
 import type { Config } from 'tailwindcss';
 
 const config = {
-  darkMode: ['class'],
+  darkMode: 'class', // modifier la valeur de darkMode de ['class'] à 'class'
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
@@ -24,6 +24,14 @@ const config = {
           DEFAULT: 'hsl(var(--destructive))',
           foreground: 'hsl(var(--destructive-foreground))',
         },
+        success: {
+          DEFAULT: 'hsl(var(--success))',
+          foreground: 'hsl(var(--success-foreground))',
+        },
+        danger: {
+          DEFAULT: 'hsl(var(--danger))',
+          foreground: 'hsl(var(--danger-foreground))',
+        },
         muted: {
           DEFAULT: 'hsl(var(--muted))',
           foreground: 'hsl(var(--muted-foreground))',
@@ -40,6 +48,10 @@ const config = {
           DEFAULT: 'hsl(var(--card))',
           foreground: 'hsl(var(--card-foreground))',
         },
+      },
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'],
+        heading: ['Poppins', 'sans-serif'],
       },
       borderRadius: {
         lg: 'var(--radius)',
@@ -59,6 +71,12 @@ const config = {
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
+      },
+      boxShadow: {
+        custom: '0 5px 15px rgba(0, 0, 0, 0.1)',
+      },
+      transitionProperty: {
+        'custom': 'all 0.3s ease',
       },
     },
   },

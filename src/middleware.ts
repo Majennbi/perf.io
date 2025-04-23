@@ -23,10 +23,18 @@ const isProtectedRoute = createRouteMatcher([
   '/:locale/api(.*)',
 ]);
 
+const ENABLE_AUTH = false;
+
 export default function middleware(
   request: NextRequest,
   event: NextFetchEvent,
 ) {
+  // Si l'authentification est désactivée et que c'est une route protégée, 
+  // on laisse passer directement vers le middleware d'internationalisation
+  if (!ENABLE_AUTH && isProtectedRoute(request)) {
+    return intlMiddleware(request);
+  }
+
   if (
     request.nextUrl.pathname.includes('/sign-in')
     || request.nextUrl.pathname.includes('/sign-up')

@@ -6,7 +6,7 @@ const localePrefix: LocalePrefix = 'as-needed';
 
 // FIXME: Update this configuration file based on your project information
 export const AppConfig = {
-  name: 'SaaS Template',
+  name: 'Perf.io',
   locales: [
     {
       id: 'en',
@@ -14,7 +14,7 @@ export const AppConfig = {
     },
     { id: 'fr', name: 'Français' },
   ],
-  defaultLocale: 'en',
+  defaultLocale: 'fr',
   localePrefix,
 };
 

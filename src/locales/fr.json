@@ -1,20 +1,20 @@
 {
   "Index": {
-    "meta_title": "SaaS Template - Le template SaaS parfait pour construire et mettre à l'échelle votre entreprise en toute simplicité.",
+    "meta_title": "Perf.io - Le template SaaS parfait pour construire et mettre à l'échelle votre entreprise en toute simplicité.",
     "meta_description": "Un template gratuit et open-source de landing page pour votre entreprise SaaS, construit avec React, TypeScript, Shadcn UI et Tailwind CSS."
   },
   "Navbar": {
     "sign_in": "Se connecter",
     "sign_up": "S'inscrire",
     "product": "Produit",
-    "docs": "Docs",
+    "calculator": "Simulateur",
     "blog": "Blog",
     "community": "Communauté",
     "company": "Entreprise"
   },
   "Hero": {
     "follow_twitter": "Suivez @Ixartz sur Twitter",
-    "title": "Le parfait <important>SaaS template</important> pour construire et mettre à l'échelle votre entreprise en toute simplicité.",
+    "title": "<important>Pilote et gère</important> ton activité de freelance comme un pro avec Perf.io.",
     "description": "Un template gratuit et open-source de landing page pour votre entreprise SaaS, construit avec React, TypeScript, Shadcn UI et Tailwind CSS.",
     "primary_button": "Démarrer",
     "secondary_button": "Mettez une étoile sur GitHub"
@@ -24,19 +24,19 @@
   },
   "Features": {
     "section_subtitle": "Fonctionnalités",
-    "section_title": "Débloquer le plein potentiel du SaaS Template",
-    "section_description": "Un template gratuit et open-source de landing page pour votre entreprise SaaS, construit avec React, TypeScript, Shadcn UI et Tailwind CSS.",
-    "feature1_title": "Node.js",
-    "feature2_title": "React",
-    "feature3_title": "Tailwind CSS",
-    "feature4_title": "TypeScript",
-    "feature5_title": "Shadcn UI",
-    "feature6_title": "ESLint",
-    "feature_description": "Un template gratuit et open-source de landing page pour votre entreprise SaaS, construit avec React, TypeScript, Shadcn UI et Tailwind CSS."
+    "section_title": "Tout ce dont vous avez besoin pour gérer votre activité de freelance",
+    "section_description": "Perf.io vous offre tous les outils nécessaires pour gérer efficacement votre activité de freelance, suivre vos projets et maximiser votre productivité.",
+    "feature1_title": "Gestion de clients",
+    "feature2_title": "Suivi de temps",
+    "feature3_title": "Facturation automatique",
+    "feature4_title": "Gestion de projets",
+    "feature5_title": "Tableaux de bord",
+    "feature6_title": "Rapports financiers",
+    "feature_description": "Des outils intuitifs et puissants pour vous aider à vous concentrer sur ce que vous faites de mieux : votre métier de freelance."
   },
   "Pricing": {
     "section_subtitle": "Fonctionnalités",
-    "section_title": "Débloquer le plein potentiel du SaaS Template",
+    "section_title": "Débloquer le plein potentiel du Perf.io",
     "section_description": "Un template gratuit et open-source de landing page pour votre entreprise SaaS, construit avec React, TypeScript, Shadcn UI et Tailwind CSS.",
     "button_text": "Démarrer"
   },
@@ -94,7 +94,7 @@
     "settings": "Réglages"
   },
   "Dashboard": {
-    "meta_title": "Tableau de bord du SaaS Template",
+    "meta_title": "Tableau de bord du Perf.io",
     "meta_description": "Un template gratuit et open-source de landing page pour votre entreprise SaaS, construit avec Next.js, TypeScript, Shadcn UI et Tailwind CSS."
   },
   "DashboardIndex": {
